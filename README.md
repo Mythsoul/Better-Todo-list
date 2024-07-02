@@ -64,7 +64,7 @@ nodemon index.js
 Use the application : Navigate to http://localhost:3000 to see the todo list . 
 
 # image 
-<img src="./public/styles/Todolistimage.png">
+<img src="public/styles/Todolistimage.png">
 
 # Contributing
 Contributions are welcome! If you have any suggestions, improvements, or issues, please feel free to open an issue or create a pull request.
