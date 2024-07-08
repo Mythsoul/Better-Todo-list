@@ -69,6 +69,49 @@ app.post("/delete", async(req, res) => {
  res.redirect("/")
 });
 
+app.get("/random3" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+
+app.get("/random2" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+
+app.get("/random144" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+
+app.get("/random44" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random44" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random44" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random55" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random66" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random67" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random0" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random4" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random7" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+app.get("/random6" , (req , res)=>{ 
+  res.send("RANDOM")
+})
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
